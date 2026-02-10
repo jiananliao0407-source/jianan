@@ -1,3 +1,6 @@
+pip install streamlit
+streamlit run app.py
+
 import base64
 import streamlit as st
 import streamlit.components.v1 as components
@@ -461,9 +464,6 @@ html = Template(r"""
 b64 = base64.b64encode(html.encode("utf-8")).decode("ascii")
 iframe = f'<iframe src="data:text/html;base64,{b64}" style="width:100%;height:560px;border:0;border-radius:14px;"></iframe>'
 components.html(iframe, height=580, scrolling=False)
-File "/mount/src/jianan/test.py", line 464
-  pip install streamlit
-      ^
-SyntaxError: invalid syntax
+
 
 

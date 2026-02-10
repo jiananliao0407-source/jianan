@@ -1,4 +1,4 @@
-game_html = f"""
+game_html = """
 <!doctype html>
 <html>
 <head>

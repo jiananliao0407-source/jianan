@@ -1,5 +1,4 @@
-pip install streamlit
-streamlit run app.py
+
 
 import base64
 import streamlit as st
